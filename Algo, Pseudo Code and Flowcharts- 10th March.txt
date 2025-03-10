@@ -1,0 +1,235 @@
+
+Algo, Pseudo Code and Flowcharts
+
+
+1. Student Grade Calculator
+
+Start
+define a,b,c
+score = (a0.3)+(b0.3)+(c0.4)
+//define a condition
+if score >= 60
+then print ('Passed')
+else
+print('Fail')
+end if 
+End              // ALGO
+
+//PSEUDO CODE
+
+START
+    INPUT a,b,c
+    //Calculate Sum of all three with AVG%
+    SCORE = (a0.3)+(b0.3)+(c0.4)
+    IF SCORE >= 60
+    PRINT ('PASSED')
+    ELSE
+    PRINT('FAIL')    
+END
+
+
+2. ATM Banking System
+
+
+Start
+define check_balance,deposit_money, withdrawl, exit
+validate user PIN = int(input('pin'))
+print ('check_balance,deposit_money, withdrawl, exit')
+for i in check_balance
+maintain min_balance = 5000 AND negative_balance != 0
+print ('RECIEPT')
+end          //ALGO
+
+//PSEUDO
+
+START
+    INPUT pin
+    PRINT ('check_balance,deposit_money, withdrawl, exit')
+    IF min_balance <= 5000
+    PRINT ('MINIMUM BALANCE NEEDS TO BE THERE ELSE PENALTY')
+    ELSE
+    PRINT ('FAILED TRANSCATION')
+    IF negative_balance <= 0
+    PRINT ('MINIMUM BALANCE NEEDS TO BE THERE ELSE PENALTY')
+    ELSE
+    PRINT ('FAILED TRANSCATION')
+END IF
+END IF
+PRINT ('RECIEPT')
+END
+
+3. Inventory Management System
+
+Start 
+define ID, name, price, and quantity
+define add(dict.) and assign values id,name,price,quantity
+if id = value or name = product_name
+Then update or delete record
+else 
+print ('ERROR')
+end if
+print (INVENTORY_STATUS)
+print (STOCK_UPDATE)
+End
+
+//PSEUDO CODE
+
+START
+    INPUT ID, name, price, quantity
+    IF id = value
+    THEN
+    PERFORM UPDATION OR DELETION
+    END IF
+    IF name = value
+    THEN
+    PERFORM UPDATION OR DELETION
+    END IF
+    PRINT (INVENTORY_STATUS)
+    PRINT (STOCK_UPDATE)
+    PRINT (REPORT)
+END
+
+
+4. Prime Number Checker
+
+Start
+  INPUT n
+  If n%n == 0 
+  THEN PRINT "PRIME NO. as mentioned num. is divisible by 1 or itself"
+  Else 
+      PRINT "NOT A PRIME NO."
+  END IF
+End
+
+Start
+  INPUT n
+  If n%2 == 0
+  THEN PRINT "PRIME NO."
+  Else 
+      PRINT "NOT A PRIME NO."
+  END IF
+End
+
+
+5. Temperature Conversion Tool
+
+define temp
+define c,f,k,a
+if c then 
+print c = (value 32)5/9 Celcius
+end if
+if f then 
+print f = (value 9/5) + 32 Farehniet
+end if
+if k then 
+print k = (value 32)5/9 + 273.15 Kelvin
+end if
+if a then
+print c = (value 32)5/9 Celcius
+print f = (value 9/5) + 32 Fahrenheit
+print k = (value 32)5/9 + 273.15 Kelvin
+end if
+end  //ALGO
+
+//PSEUDO CODE
+
+START
+    INPUT temp
+    DEFINE c,f,k,a 
+    if c then 
+    PRINT c = (value 32)5/9 Celcius
+    END if 
+    if f then 
+    PRINT f = (value 9/5) + 32 Fahrenheit
+    END if
+    if k then 
+    PRINT k = (value 32)5/9 + 273.15 Kelvin
+    END if
+    if a then
+    PRINT c = (value 32)5/9  Celcius
+    PRINT f = (value 9/5) + 32  Fahrenheit
+    PRINT k = (value 32)5/9 + 273.15 Kelvin
+    END IF
+END
+
+6. Library Book Management System
+
+//ALGO
+
+define books (title, author, ISBN, status)
+define members 
+define transcations
+Assign bookid set status = 'Available'
+select title = NAME delete if found
+print ('Available book')
+print ('Calculate overdue')
+
+
+START  
+    Books (BookID, Title, Author, ISBN, Status)  
+    Members (MemberID, Name, Contact)  
+    Transactions (BookID, MemberID, IssueDate, DueDate, ReturnDate)  
+    Input Title, Author, ISBN  
+    Assign BookID, set Status = "Available", store in Books  
+    Input BookID/ISBN, search Books, delete if found  
+    Input MemberID, BookID  
+    If available, set Status = "Issued", record in Transactions  
+    Input BookID, update Transactions, set Status = "Available"  
+    If overdue, calculate fine  
+    Input Title/Author/ISBN, search Books, display results  
+    List available books, issued books, and overdue books  
+END
+
+7. Fibonacci Sequence Generator
+
+Start  
+Input the number of terms (N).  
+Initialize first two terms: F0 = 0, F1 = 1.  
+Print F0 and F1.  
+For i = 2 to N-1, do:  
+   - Compute Fi = F(i-1) + F(i-2).  
+   - Print Fi.  
+End loop.  
+End
+
+//PSEUDO CODE
+BEGIN  
+    INPUT N  // Number of terms  
+    SET F0 = 0, F1 = 1  
+    PRINT F0, F1  
+    
+    FOR i FROM 2 TO N-1 DO  
+        Fi = F0 + F1  
+        PRINT Fi  
+        F0 = F1  
+        F1 = Fi  
+    ENDFOR  
+END
+
+8. Calendar Event Scheduler
+
+START  
+Define Data Structure  
+   - Events (Date, Time, Description)  
+Add Event  
+   - Input Date, Time, Description  
+   - Store event in the list/database  
+View Events  
+   - Display all stored events  
+Delete Event  
+   - Input Date and Time  
+   - Search and remove matching event  
+Exit System 
+END
+
+//PSEUDO CODE
+
+START  
+    DEFINE Events list  
+    PRINT Add_Event(Date, Time, Description) → STORE in Events  
+    PRINT View_Events() → DISPLAY Events  
+    PRINT Delete_Event(Date, Time) → REMOVE matching Event  
+    LOOP: SHOW menu, GET choice, CALL function  
+END
+
+
